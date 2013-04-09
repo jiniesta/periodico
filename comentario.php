@@ -14,10 +14,10 @@ Class comentario{
 		return $this->fecha;
 	}
 	public function set_usuario($usuario){
-		$this->titulo=$usuario;
+		$this->usuario=$usuario;
 	}
 	public function set_texto($texto){
-		$this->titulo=$texto;
+		$this->usuario=$texto;
 	}
 	
 	public function set_fecha($usuario){
