@@ -5,10 +5,10 @@ Class Seccion{
 	private $seccion;
 
 	public function get_tipo(){
-		return $this -> $tipo;
+		return $this -> tipo;
 	}	
 	public function get_seccion(){
-		return $this -> $seccion;
+		return $this -> seccion;
 	}
 
 	public function set_tipo($tipo){

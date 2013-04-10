@@ -40,7 +40,7 @@ Class Noticia{
 		$this -> texto = $texto;
 	}
 	public function set_seccion($seccion){
-		$this -> seccion = $seccion;
+		$this -> seccion[] = $seccion;
 	}
 	public function set_importancia($importancia){
 		$this -> importancia[] = $importancia;
